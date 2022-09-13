@@ -6,6 +6,7 @@
 //concerned with top node
 
 class Node {
+    //node class properties
     constructor(data){
         this.data = data
         this.next = null
@@ -14,6 +15,7 @@ class Node {
 
 class Stack {
     constructor(){
+        //stack class properties
         this.top = null
         this.bottom = null
         this.length = 0
